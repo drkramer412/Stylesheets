@@ -43,7 +43,7 @@ ol{
 
 .table{
 	margin: 0px auto; 
-    width: 100%;
+    	width: 100%;
 	padding:0px;
 	border-collapse: collapse;
 }
@@ -51,7 +51,7 @@ ol{
 .table thead tr td,
 .table tfoot tr td,
 .table tbody tr td {
-	padding: 0px ;
+	padding: 2px ;
 	vertical-align: middle;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -95,11 +95,6 @@ ol{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 
-}
-@page {
-    size: 21cm 29.7cm;
-    margin: 5mm 5mm 5mm 5mm;
-     /* change the margins as you want them to be. */
 }
     
 </style>
