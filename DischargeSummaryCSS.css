@@ -98,7 +98,7 @@ ol{
 }
 @page {
     size: 21cm 29.7cm;
-    margin: 5mm 5mm 5mm 5mm;
+   /* margin: 5mm 5mm 5mm 5mm;*/
      /* change the margins as you want them to be. */
 }
     
