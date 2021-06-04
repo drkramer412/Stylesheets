@@ -1,11 +1,17 @@
-<style type='text/css'>
 
 span{
 font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: normal;  	
 }
-
+span.nametag{
+    float: right;
+    font-size: 10px;
+    font-weight: lighter; 
+    font-style: italic;
+    margin-bottom: 8px;
+   
+}
 h1{
 	font-size: 20px;
 	text-align: center;
@@ -26,8 +32,8 @@ h3{
 	margin-top: 10px;
 	text-align: left;
     border-bottom: 0.01em solid black;
-    margin-bottom: 2px;
-    padding-bottom: 4px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     font-size: 14px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -37,21 +43,23 @@ ul{
 	line-height: 1.5
 }
 ol{
-	line-height: 2
+	line-height: 1.5
 }
 
 
+
 .table{
-	margin: 0px auto; 
-    	width: 100%;
+	margin: 0px; 
+    width: 100%;
 	padding:0px;
 	border-collapse: collapse;
+    
 }
 
 .table thead tr td,
 .table tfoot tr td,
 .table tbody tr td {
-	padding: 2px ;
+	padding: 0px ;
 	vertical-align: middle;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -73,6 +81,7 @@ ol{
     padding: 4px; 
 	
 }
+
 #course{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -87,7 +96,7 @@ ol{
 
 	
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 #instructions{
@@ -96,5 +105,3 @@ ol{
 	font-size: 12px;
 
 }
-    
-</style>
